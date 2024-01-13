@@ -1,0 +1,52 @@
+/*
+General
+*/
+@font-face {
+    font-family: "Mestre";
+    font-weight: normal;
+    src: url("fonts/Mestre-Regular.otf");
+}
+@font-face {
+    font-family: "Mestre";
+    font-weight: bold;
+    src: url("fonts/Mestre-Black.otf");
+}
+body {
+	max-width: 30em;
+	margin: 0 auto; 
+	padding: 2em;
+	font: 130%/1.5 "Mestre", sans-serif; 
+	font-weight: normal; 
+	text-align: left; 
+}
+.versalitas {
+	font-size: 140%;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+.tracking {
+	letter-spacing: 0.05em;
+}
+.ligaduras {
+	font-family: "Minion Pro", serif;
+	font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: discretionary-ligatures;
+}
+.numerales-mayusculos {
+	font-variant-numeric: proportional-nums;
+}
+.numerales-minusculos {
+	font-variant-numeric: oldstyle-nums;
+}
+.numerales-tabulares {
+	font-variant-numeric: tabular-nums;
+}
+.fraccion {
+	font-variant-numeric: diagonal-fractions;
+}
+.superindice {
+	font-variant-position: super;
+}
+.subindice {
+	font-variant-position: sub;
+}
